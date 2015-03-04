@@ -2,6 +2,7 @@
 
 Remove duplicate logic that use thor.
 
+[![Gem Version](https://badge.fury.io/rb/enel.svg)](http://badge.fury.io/rb/enel)
 [![Build Status](https://travis-ci.org/tbpgr/enel.png?branch=master)](https://travis-ci.org/tbpgr/enel)
 
 ## :notes: Images
