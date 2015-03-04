@@ -1,6 +1,8 @@
 # :zap::angel: Enel
 
-Remove duplicate logic with thor.
+Remove duplicate logic that use thor.
+
+[![Build Status](https://travis-ci.org/tbpgr/enel.png?branch=master)](https://travis-ci.org/tbpgr/enel)
 
 ## :notes: Images
 ### :baby_chick: Before

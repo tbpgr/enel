@@ -1,6 +1,6 @@
 # encoding: utf-8
-require "spec_helper"
-require "enel"
+require 'spec_helper'
+require 'enel'
 require 'thor'
 
 describe Enel do
@@ -14,12 +14,12 @@ describe Enel do
         end
 
         desc 'find [board_id]', 'show board'
-        def find(board_id)
+        def find(_board_id)
         end
 
-        define_call_command(proc { |*args|
+        define_call_command(proc do |*args|
           args
-        })
+        end)
       end
       Hoge.new
     end
@@ -27,8 +27,8 @@ describe Enel do
     cases = [
       {
         case_no: 1,
-        case_title: "case_title",
-        expected: [:all, "args1", "args2"]
+        case_title: 'case_title',
+        expected: [:all, 'args1', 'args2']
       }
     ]
 
@@ -41,7 +41,7 @@ describe Enel do
           # nothing
 
           # -- when --
-          actual = hoge.all("args1", "args2")
+          actual = hoge.all('args1', 'args2')
 
           # -- then --
           expect(actual).to eq(c[:expected])
@@ -50,11 +50,11 @@ describe Enel do
         end
       end
 
-      def case_before(c)
+      def case_before(_c)
         # implement each case before
       end
 
-      def case_after(c)
+      def case_after(_c)
         # implement each case after
       end
     end
