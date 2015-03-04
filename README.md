@@ -61,7 +61,7 @@ class Hoge < Thor
 
   desc 'hoge3', 'hoge3'
   def hoge3(args1, *options)
-    puts Commands::Hoge2.run(args1, *options)
+    puts Commands::Hoge3.run(args1, *options)
   end
 
   # hoge4, hoge5... more!
